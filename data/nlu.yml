@@ -1,0 +1,148 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hi there
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: inquire_time
+  examples: |
+    - what time is it?
+    - what time is it in [Miami](place)?
+    - what time is it in [London](place)?
+    - tell me the time in [Berlin](place)
+    - what is the current time in [Singapore](place)
+    - what time is it in [Sydney](place)
+    - please tell me the time in [Tokyo](place)
+    - how late is it in [Cape Town](place)
+- lookup: place
+  examples: |
+    - Singapore
+    - Shanghai
+    - London
+    - Berlin
+    - Miami
+    - Sydney
+    - Miami
+    - Tel Aviv
+    - Tokio
+    - Seoul
+    - Kuala Lumpur
+    - Istanbul
+    - Hong Kong
+    - Dubai
+    - Baku
+    - Madrid
+    - Moscow
+    - Paris
+    - Rome
+    - New York
+    - Los Angeles
+    - Chicago
+    - Toronto,
+    - Rio de Janeiro
+    - Cape Town
+    - Manila
+    - Auckland
+    - Casablanca
+    - Mexico City
+    - Mauritius
+    - Malaysia
+    - Jakarta
+    - New Delhi
+    - Cairo
+    - Buenos Aires
+    - Maldives
+- intent: where_i_live
+  examples: |
+    - please remember that i live in [Miami](place)?
+    - my house is in [London](place)?
+    - reminder. i live in [Berlin](place)
+    - my residence is in [Singapore](place)
+    - remember that i live in [Sydney](place)
+- intent: inquire_time_difference
+  examples: |
+    - time difference between [Miami](place)?
+    - what is my time difference with [London](place)?
+    - how big is the time delta with [Berlin](place)?
+    - is there a time difference with [Singapore](place)?
+    - what is the time difference with [Sydney](place)
